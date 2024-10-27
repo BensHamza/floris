@@ -12,10 +12,13 @@ from .flow_visualization import (
     visualize_cut_plane,
     visualize_quiver,
 )
+from .heterogeneous_map import HeterogeneousMap
+from .par_floris_model import ParFlorisModel
 from .parallel_floris_model import ParallelFlorisModel
 from .uncertain_floris_model import ApproxFlorisModel, UncertainFlorisModel
 from .wind_data import (
     TimeSeries,
     WindRose,
+    WindRoseWRG,
     WindTIRose,
 )

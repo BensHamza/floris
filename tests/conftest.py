@@ -216,6 +216,8 @@ class SampleInputs:
                 "helix_power_c": 1.629e-10,
                 "helix_thrust_b": 1.027e-03,
                 "helix_thrust_c": 1.378e-06,
+                "peak_shaving_fraction": 0.2,
+                "peak_shaving_TI_threshold": 0.1,
                 "power": [
                     0.0,
                     0.0,
@@ -487,6 +489,10 @@ class SampleInputs:
                 "turbopark": {
                     "A": 0.04,
                     "sigma_max_rel": 4.0
+                },
+                "turboparkgauss": {
+                    "A": 0.04,
+                    "include_mirror_wake": True
                 },
                 "empirical_gauss": {
                     "wake_expansion_rates": [0.023, 0.008],
